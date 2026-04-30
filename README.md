@@ -13,7 +13,7 @@ The API allows creating, updating, deleting, and tracking leads through differen
 * MongoDB
 * Mongoose
 
----
+
 
 ## How to Run the Project
 
@@ -32,7 +32,7 @@ The API allows creating, updating, deleting, and tracking leads through differen
 The server will run on
 http://localhost:3000
 
----
+
 
 ## Features
 
@@ -56,7 +56,7 @@ Level 3
 * Caching for GET lead by id
 * Cache automatically cleared on update, delete, and status change
 
----
+
 
 ## Lead Status Flow
 
@@ -70,7 +70,7 @@ CONVERTED and LOST are final stages
 
 Invalid transitions return an error
 
----
+
 
 ## API Endpoints
 
@@ -84,7 +84,7 @@ PATCH /leads/:id/status
 POST /leads/bulk
 PUT /leads/bulk
 
----
+
 
 ## Caching
 
@@ -98,7 +98,7 @@ Cache is cleared when
 * lead is deleted
 * status is changed
 
----
+
 
 ## Project Structure
 
@@ -108,7 +108,7 @@ Lead.js
 index.js
 package.json
 
----
+
 
 ## Notes
 
