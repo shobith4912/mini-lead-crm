@@ -1,4 +1,4 @@
-# Mini Lead CRM API
+# Mini Lead CRM
 
 This project is a simple backend API built for managing leads in a sales pipeline. It was developed as part of a backend engineering assignment.
 
